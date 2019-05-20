@@ -278,13 +278,13 @@ class IndexPage extends React.Component {
                 </Card>
                 <Card>
                   <Card.Header title="Customer Information">
-                    <Button
+                    {/* <Button
                       icon="refresh"
                       size="slim"
                       onClick={this.handleRegenerate}
                     >
                       Regenerate
-                    </Button>
+                    </Button> */}
                   </Card.Header>
                   <Card.Section title="Customer">
                     <TextContainer>
