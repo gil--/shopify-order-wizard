@@ -8,7 +8,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { StaticQuery, graphql } from "gatsby";
-import { AppProvider, FooterHelp } from "@shopify/polaris";
+import { AppProvider, Button, FooterHelp } from "@shopify/polaris";
 
 import "@shopify/polaris/styles.css";
 
@@ -29,7 +29,11 @@ const Layout = ({ children }) => (
           <>
             {children}
             <FooterHelp>
-              Built by <a href="http://www.gilgreenberg.com">Gil Greenberg</a>{" "}
+              Built by <Button 
+                url="http://www.gilgreenberg.com"
+                plain
+                external
+              >Gil Greenberg</Button>{" "}
               w/ 🍦💖
             </FooterHelp>
           </>
