@@ -13,7 +13,7 @@
     "apollo-link-context": "^1.0.17",
     "apollo-link-error": "^1.1.10",
     "apollo-link-http": "^1.5.14",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "faker": "^4.1.0",
     "gatsby": "^2.1.34",
     "gatsby-image": "^2.0.23",
